@@ -22,6 +22,7 @@ function konamiCode () {
 
 			if (konamiCodePosition == konamiCode.length) {
 				//Konami Code activated, do code stuff here
+				konamiCodePosition = 0; //reset the code for multiple uses on the same page
 			}
 		} else {
 			konamiCodePosition = 0;
@@ -53,6 +54,7 @@ function konamiCode () {
 
 			if (konamiCodePosition == konamiCode.length) {
 				//Konami Code activated, do code stuff here
+				konamiCodePosition = 0; //reset the code for multiple uses on the same page
 			}
 		} else {
 			konamiCodePosition = 0;
@@ -83,6 +85,7 @@ function konamiCode () {
 
 			if (konamiCodePosition == konamiCode.length) {
 				//Konami Code activated, do code stuff here
+				konamiCodePosition = 0; //reset the code for multiple uses on the same page
 			}
 		} else {
 			konamiCodePosition = 0;
